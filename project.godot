@@ -1,0 +1,20 @@
+; Engine configuration file.
+; It's best to edit this using the Godot editor.
+
+config_version=5
+
+[application]
+config/name="Survival Shooter"
+run/main_scene="res://main.tscn"
+
+[display]
+window/size/viewport_width=800
+window/size/viewport_height=600
+window/size/mode=2
+
+[input]
+ui_left={"deadzone":0.5,"events":[{"type":"key","keycode":65},{"type":"key","keycode":16777231}]}
+ui_right={"deadzone":0.5,"events":[{"type":"key","keycode":68},{"type":"key","keycode":16777233}]}
+ui_up={"deadzone":0.5,"events":[{"type":"key","keycode":87},{"type":"key","keycode":16777232}]}
+ui_down={"deadzone":0.5,"events":[{"type":"key","keycode":83},{"type":"key","keycode":16777234}]}
+ui_accept={"deadzone":0.5,"events":[{"type":"key","keycode":32},{"type":"key","keycode":16777221}]}
