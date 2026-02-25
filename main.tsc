@@ -1,0 +1,5 @@
+Main (Node2D)
+├── Player (CharacterBody2D)
+│     ├── Sprite2D
+│     └── CollisionShape2D
+└── ScoreLabel (Label)
